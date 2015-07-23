@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ED785C81B60BD8D0021527E /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ED785C71B60BD8D0021527E /* cars_total.plist */; };
+		0ED785CD1B60BEE20021527E /* HWCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED785CA1B60BEE20021527E /* HWCar.m */; };
+		0ED785CE1B60BEE20021527E /* HWCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED785CC1B60BEE20021527E /* HWCarGroup.m */; };
+		0ED785D01B610B560021527E /* cars_total2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ED785CF1B610B560021527E /* cars_total2.plist */; };
+		0ED785D71B610C8F0021527E /* HWClassifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED785D61B610C8F0021527E /* HWClassifyView.m */; };
+		0ED785D81B610D0D0021527E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0CDA91B5EA86C004F0F0F /* Main.storyboard */; };
+		0ED785D91B610D140021527E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0CDAE1B5EA86C004F0F0F /* LaunchScreen.xib */; };
+		0ED786231B610F990021527E /* HWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED786221B610F990021527E /* HWTestViewController.m */; };
 		0EF0CDA21B5EA86C004F0F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0CDA11B5EA86C004F0F0F /* main.m */; };
 		0EF0CDA51B5EA86C004F0F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0CDA41B5EA86C004F0F0F /* AppDelegate.m */; };
 		0EF0CDA81B5EA86C004F0F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0CDA71B5EA86C004F0F0F /* ViewController.m */; };
-		0EF0CDAB1B5EA86C004F0F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0CDA91B5EA86C004F0F0F /* Main.storyboard */; };
 		0EF0CDAD1B5EA86C004F0F0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0CDAC1B5EA86C004F0F0F /* Images.xcassets */; };
-		0EF0CDB01B5EA86C004F0F0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0CDAE1B5EA86C004F0F0F /* LaunchScreen.xib */; };
 		0EF0CDBC1B5EA86C004F0F0F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0CDBB1B5EA86C004F0F0F /* __Tests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED785C71B60BD8D0021527E /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		0ED785C91B60BEE20021527E /* HWCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCar.h; sourceTree = "<group>"; };
+		0ED785CA1B60BEE20021527E /* HWCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCar.m; sourceTree = "<group>"; };
+		0ED785CB1B60BEE20021527E /* HWCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCarGroup.h; sourceTree = "<group>"; };
+		0ED785CC1B60BEE20021527E /* HWCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCarGroup.m; sourceTree = "<group>"; };
+		0ED785CF1B610B560021527E /* cars_total2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total2.plist; sourceTree = "<group>"; };
+		0ED785D51B610C8F0021527E /* HWClassifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWClassifyView.h; sourceTree = "<group>"; };
+		0ED785D61B610C8F0021527E /* HWClassifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWClassifyView.m; sourceTree = "<group>"; };
+		0ED786211B610F990021527E /* HWTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTestViewController.h; sourceTree = "<group>"; };
+		0ED786221B610F990021527E /* HWTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTestViewController.m; sourceTree = "<group>"; };
 		0EF0CD9C1B5EA86C004F0F0F /* 分类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "分类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF0CDA01B5EA86C004F0F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF0CDA11B5EA86C004F0F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ED785D41B610C8F0021527E /* HWClassifyView */ = {
+			isa = PBXGroup;
+			children = (
+				0ED785D51B610C8F0021527E /* HWClassifyView.h */,
+				0ED785D61B610C8F0021527E /* HWClassifyView.m */,
+			);
+			path = HWClassifyView;
+			sourceTree = "<group>";
+		};
 		0EF0CD931B5EA86C004F0F0F = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +106,17 @@
 		0EF0CD9E1B5EA86C004F0F0F /* 分类 */ = {
 			isa = PBXGroup;
 			children = (
+				0ED785D41B610C8F0021527E /* HWClassifyView */,
+				0ED785C91B60BEE20021527E /* HWCar.h */,
+				0ED785CA1B60BEE20021527E /* HWCar.m */,
+				0ED785CB1B60BEE20021527E /* HWCarGroup.h */,
+				0ED785CC1B60BEE20021527E /* HWCarGroup.m */,
 				0EF0CDA31B5EA86C004F0F0F /* AppDelegate.h */,
 				0EF0CDA41B5EA86C004F0F0F /* AppDelegate.m */,
 				0EF0CDA61B5EA86C004F0F0F /* ViewController.h */,
 				0EF0CDA71B5EA86C004F0F0F /* ViewController.m */,
+				0ED786211B610F990021527E /* HWTestViewController.h */,
+				0ED786221B610F990021527E /* HWTestViewController.m */,
 				0EF0CDA91B5EA86C004F0F0F /* Main.storyboard */,
 				0EF0CDAC1B5EA86C004F0F0F /* Images.xcassets */,
 				0EF0CDAE1B5EA86C004F0F0F /* LaunchScreen.xib */,
@@ -96,6 +128,8 @@
 		0EF0CD9F1B5EA86C004F0F0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0ED785C71B60BD8D0021527E /* cars_total.plist */,
+				0ED785CF1B610B560021527E /* cars_total2.plist */,
 				0EF0CDA01B5EA86C004F0F0F /* Info.plist */,
 				0EF0CDA11B5EA86C004F0F0F /* main.m */,
 			);
@@ -199,8 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF0CDAB1B5EA86C004F0F0F /* Main.storyboard in Resources */,
-				0EF0CDB01B5EA86C004F0F0F /* LaunchScreen.xib in Resources */,
+				0ED785D91B610D140021527E /* LaunchScreen.xib in Resources */,
+				0ED785D81B610D0D0021527E /* Main.storyboard in Resources */,
+				0ED785C81B60BD8D0021527E /* cars_total.plist in Resources */,
+				0ED785D01B610B560021527E /* cars_total2.plist in Resources */,
 				0EF0CDAD1B5EA86C004F0F0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +258,10 @@
 				0EF0CDA81B5EA86C004F0F0F /* ViewController.m in Sources */,
 				0EF0CDA51B5EA86C004F0F0F /* AppDelegate.m in Sources */,
 				0EF0CDA21B5EA86C004F0F0F /* main.m in Sources */,
+				0ED785CE1B60BEE20021527E /* HWCarGroup.m in Sources */,
+				0ED785D71B610C8F0021527E /* HWClassifyView.m in Sources */,
+				0ED785CD1B60BEE20021527E /* HWCar.m in Sources */,
+				0ED786231B610F990021527E /* HWTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +456,7 @@
 				0EF0CDC11B5EA86C004F0F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF0CDC21B5EA86C004F0F0F /* Build configuration list for PBXNativeTarget "分类Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +465,7 @@
 				0EF0CDC41B5EA86C004F0F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

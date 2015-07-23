@@ -1,25 +1,25 @@
 //
-//  ViewController.m
+//  HWTestViewController.m
 //  分类
 //
-//  Created by 黄伟 on 15/7/22.
+//  Created by 黄伟 on 15/7/23.
 //  Copyright (c) 2015年 huangwei. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HWTestViewController.h"
 #import "HWClassifyView.h"
 #import "HWCar.h"
 #import "HWCarGroup.h"
-@interface ViewController ()<HWClassifyViewDatasource,HWClassifyViewDelegate>
+@interface HWTestViewController ()<HWClassifyViewDatasource,HWClassifyViewDelegate>
 @property(nonatomic,strong) NSArray *carGroups;
 @end
 
-@implementation ViewController
+@implementation HWTestViewController
 -(NSArray *)carGroups
 {
     if (_carGroups == 0)
     {
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"cars_total.plist" ofType:nil];
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"cars_total2.plist" ofType:nil];
         NSArray *array = [NSArray arrayWithContentsOfFile:path];
         NSMutableArray *tempArr = [NSMutableArray arrayWithCapacity:array.count];
         for (NSDictionary *dic in array)
@@ -70,3 +70,4 @@
     NSLog(@"%@",car.name);
 }
 @end
+
