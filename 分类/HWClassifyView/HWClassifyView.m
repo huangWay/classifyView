@@ -292,7 +292,10 @@
         CGRect frm = [rectValue CGRectValue];
         if (CGRectContainsPoint(frm, touchPoint)) {
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index inSection:self.selectBtn.tag];
-            [self.delegate classifyView:self didSelectContentViewAtIndexPath:indexPath];
+            if ([self.delegate respondsToSelector:@selector(classifyView:didSelectContentViewAtIndexPath:)]) {
+                [self.delegate classifyView:self didSelectContentViewAtIndexPath:indexPath];
+            }
+            
             *stop = YES;
         }
         
